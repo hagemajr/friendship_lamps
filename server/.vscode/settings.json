@@ -1,0 +1,4 @@
+{
+    "code-runner.customCommand": "./gradlew build && tar -xf ./build/distributions/friendshipLampsServer-1.0-SNAPSHOT.tar &&  ./friendshipLampsServer-1.0-SNAPSHOT/bin/friendshipLampsServer",
+    "code-runner.cwd": "/Users/jhageman/code/personal/friendship_lamps/server"
+}

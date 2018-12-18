@@ -14,6 +14,7 @@ fun main(args: Array<String>) {
             get("/") {
                 val name = call.request.header("X-Api-Name")
                 val key = call.request.header("X-Api-Key")
+                val test = call.request
                 call.respondText("Hello World! ($name) ($key)", ContentType.Text.Plain)
                 
             }
